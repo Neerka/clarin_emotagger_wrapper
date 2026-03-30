@@ -18,9 +18,9 @@ license = {text = "MIT"}
 keywords = ["clarin", "emotagger", "sentiment", "emotion", "nlp", "wrapper"]
 
 [project.urls]
-Homepage = "https://github.com/your-org/clarin-emotagger-wrapper"
-Repository = "https://github.com/your-org/clarin-emotagger-wrapper"
-Issues = "https://github.com/your-org/clarin-emotagger-wrapper/issues"
+Homepage = "https://github.com/Neerka/clarin-emotagger-wrapper"
+Repository = "https://github.com/Neerka/clarin_emotagger_wrapper"
+Issues = "https://github.com/Neerka/clarin_emotagger_wrapper/issues"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
