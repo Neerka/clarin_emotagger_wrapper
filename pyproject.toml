@@ -1,0 +1,47 @@
+[project]
+name = "clarin-emotagger-wrapper"
+version = "0.1.0"
+description = "Reusable async Python wrapper for CLARIN Emotagger sentiment and emotion analysis"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lpmn-client-biz>=2.1.7",
+    "pydantic>=2.0",
+]
+
+authors = [
+    {name = "CLARIN Emotagger Wrapper Contributors"}
+]
+
+license = {text = "MIT"}
+
+keywords = ["clarin", "emotagger", "sentiment", "emotion", "nlp", "wrapper"]
+
+[project.urls]
+Homepage = "https://github.com/your-org/clarin-emotagger-wrapper"
+Repository = "https://github.com/your-org/clarin-emotagger-wrapper"
+Issues = "https://github.com/your-org/clarin-emotagger-wrapper/issues"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["clarin_emotagger"]
+
+[[tool.uv.index]]
+url = "https://pypi.clarin-pl.eu/simple/"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.23",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-v --cov=. --cov-report=html"
