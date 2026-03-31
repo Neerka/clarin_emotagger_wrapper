@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "lpmn-client-biz>=2.1.7",
     "pydantic>=2.0",
+    "pytest>=9.0.2",
 ]
 
 authors = [

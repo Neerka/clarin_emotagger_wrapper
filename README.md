@@ -35,25 +35,25 @@ PASSWORD: your_escience_password
 ### pip
 
 ```bash
-pip install "git+https://github.com/your-org/clarin-emotagger-wrapper.git"
+pip install "git+https://github.com/Neerka/clarin_emotagger_wrapper.git"
 ```
 
 Install specific tag/commit:
 
 ```bash
-pip install "git+https://github.com/your-org/clarin-emotagger-wrapper.git@v0.1.0"
+pip install "git+https://github.com/Neerka/clarin_emotagger_wrapper.git@v0.1.0"
 ```
 
 ### uv
 
 ```bash
-uv add "git+https://github.com/your-org/clarin-emotagger-wrapper.git"
+uv add "git+https://github.com/Neerka/clarin_emotagger_wrapper.git"
 ```
 
 Specific ref:
 
 ```bash
-uv add "git+https://github.com/your-org/clarin-emotagger-wrapper.git@v0.1.0"
+uv add "git+https://github.com/Neerka/clarin_emotagger_wrapper.git@v0.1.0"
 ```
 
 ## Quick Start
